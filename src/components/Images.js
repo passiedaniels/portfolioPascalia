@@ -1,10 +1,10 @@
 import React from "react";
-import html from "./images/htmlimage.webp";
-import css from "./images/cssimage.webp";
-import bootstrap from "./images/bootstrap.webp";
-import vscode from "./images/vscodeimage.webp";
-import github from "./images/githubimage.webp";
-import react from "./images/logo.svg";
+import html from "../images/htmlimage.webp";
+import css from "../images/cssimage.webp";
+import bootstrap from "../images/bootstrap.webp";
+import vscode from "../images/vscodeimage.webp";
+import github from "../images/githubimage.webp";
+import react from "../images/logo.svg";
 
 export default function Images() {
   return (

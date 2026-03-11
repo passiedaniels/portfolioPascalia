@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./Header";
-import Images from "./Images";
-import Footer from "./Footer";
+import Header from "../components/Header";
+import Images from "../components/Images";
+import Footer from "../components/Footer";
 
 export default function Homepage() {
   return (
