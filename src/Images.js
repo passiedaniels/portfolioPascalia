@@ -7,22 +7,22 @@ export default function Images() {
         <div className="icons">
           <div className="row">
             <div className="col">
-              <img src="th.webp" alt="css" />
+              <img src="cssimage.webp" alt="css" />
             </div>
             <div className="col">
-              <img src="th(2).webp" alt="boostrap" />
+              <img src="bootstrap.webp" alt="boostrap" />
             </div>
             <div className="col">
-              <img src="download.webp" alt="HTML" />
+              <img src="images/htmlimage.webp" alt="HTML" />
             </div>
             <div className="col">
               <img src="logo.svg" alt="React app" />
             </div>
             <div className="col">
-              <img src="th(3).webp" alt="Vs code" />
+              <img src="vscodeimage.webp" alt="Vs code" />
             </div>
             <div className="col">
-              <img src="th(4).webp" alt="Github" />
+              <img src="githubimage.webp" alt="Github" />
             </div>
           </div>
         </div>

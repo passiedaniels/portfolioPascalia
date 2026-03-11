@@ -1,13 +1,15 @@
 import "./App.css";
-import Homepage from "./HomePage";
+import HomePage from "./HomePage";
 import Images from "./Images";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Homepage />
+        <HomePage />
         <Images />
+        <Footer />
       </div>
     </div>
   );
