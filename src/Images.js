@@ -1,4 +1,11 @@
 import React from "react";
+import html from "./images/htmlimage.webp";
+import css from "./images/cssimage.webp";
+import bootstrap from "./images/bootstrap.webp";
+import vscode from "./images/vscodeimage.webp";
+import github from "./images/githubimage.webp";
+import react from "./images/logo.svg";
+
 export default function Images() {
   return (
     <div className="Images">
@@ -7,22 +14,22 @@ export default function Images() {
         <div className="icons">
           <div className="row">
             <div className="col">
-              <img src="cssimage.webp" alt="css" />
+              <img src={css} alt="CSS" />
             </div>
             <div className="col">
-              <img src="bootstrap.webp" alt="boostrap" />
+              <img src={bootstrap} alt="Bootstrap" />
             </div>
             <div className="col">
-              <img src="images/htmlimage.webp" alt="HTML" />
+              <img src={html} alt="HTML" />
             </div>
             <div className="col">
-              <img src="logo.svg" alt="React app" />
+              <img src={react} alt="React app" />
             </div>
             <div className="col">
-              <img src="vscodeimage.webp" alt="Vs code" />
+              <img src={vscode} alt="Vs code" />
             </div>
             <div className="col">
-              <img src="githubimage.webp" alt="Github" />
+              <img src={github} alt="Github" />
             </div>
           </div>
         </div>

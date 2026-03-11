@@ -13,27 +13,28 @@ export default function Footer() {
         <p>Lets work together</p>
       </div>
       <div className="ContactInfo ">
+        <div>
+          <a
+            href="https://www.instagram.com/ekiteles_pae"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="bi bi-envelope-at">Pascaliaekiteles05@gmail.com</i>
+          </a>
+        </div>
         <a
           href="https://www.instagram.com/ekiteles_pae"
           target="_blank"
           rel="noreferrer"
         >
-          {" "}
-          Pascaliaekiteles05@gmail.com
+          <i class="bi bi-bootstrap"></i>
         </a>
         <a
           href="https://www.instagram.com/ekiteles_pae"
           target="_blank"
           rel="noreferrer"
         >
-          Github
-        </a>
-        <a
-          href="https://www.instagram.com/ekiteles_pae"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i class="fa-brands fa-instagram" title="instagram"></i>
+          <i className="bi bi-instagram"></i>
         </a>
 
         <a
@@ -41,9 +42,17 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          Linkdin
+          <i class="bi bi-linkedin"></i>
         </a>
       </div>
+      <p>
+        This work was coded by
+        <a href="https://github.com/passiedaniels">Pascalia A.</a> open sourced
+        on
+        <a href="https://github.com/passiedaniels/portfolioPascalia">Github</a>
+        and hosted on
+        <a href="https://pascaliaportfolio.netlify.app/">Netlify</a>
+      </p>
     </div>
   );
 }
