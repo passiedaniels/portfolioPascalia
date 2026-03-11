@@ -13,13 +13,36 @@ export default function Footer() {
         <p>Lets work together</p>
       </div>
       <div className="ContactInfo ">
-        <a href="https"> Pascaliaekiteles05@gmail.com</a>
-        <a href="https">Github</a>
-        <a href="https://www.instagram.com/ekiteles_pae" target="_blank">
+        <a
+          href="https://www.instagram.com/ekiteles_pae"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Pascaliaekiteles05@gmail.com
+        </a>
+        <a
+          href="https://www.instagram.com/ekiteles_pae"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+        <a
+          href="https://www.instagram.com/ekiteles_pae"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i class="fa-brands fa-instagram" title="instagram"></i>
         </a>
 
-        <a href="">Linkdin</a>
+        <a
+          href="https://www.instagram.com/ekiteles_pae"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Linkdin
+        </a>
       </div>
     </div>
   );
