@@ -1,5 +1,5 @@
 import React from "react";
-import Me from "./Images/me.jpg";
+import Me from "../images/me.jpg";
 import Footer from "../components/Footer";
 
 export default function AboutPage() {
