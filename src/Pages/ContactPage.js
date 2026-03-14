@@ -1,10 +1,12 @@
 import React from "react";
 import Footer from "../components/Footer";
 import "../Contact.css";
+import NavBar from "../components/NavBar";
 
 export default function ContactPage() {
   return (
     <div className="Container">
+      <NavBar />
       <div className="container-contact  ">
         <h1 className="text-center">Lets Get In Touch!!👩‍💻</h1>
         <div className="Contact d-flex justify-content-evenly mt-5">

@@ -2,10 +2,12 @@ import React from "react";
 import Me from "../images/me.jpg";
 import Footer from "../components/Footer";
 import "../About.css";
+import NavBar from "../components/NavBar";
 
 export default function AboutPage() {
   return (
     <div className=" container About">
+      <NavBar />
       <div className="content-container">
         <div className="row">
           <div className="col-6">
