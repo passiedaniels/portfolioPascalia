@@ -1,0 +1,27 @@
+.footer {
+  text-align: center;
+
+  margin: 60px;
+}
+
+.footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.contact-Button {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.social-Media {
+  font-size: 20px;
+}

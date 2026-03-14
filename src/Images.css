@@ -1,0 +1,8 @@
+.gallery-img {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

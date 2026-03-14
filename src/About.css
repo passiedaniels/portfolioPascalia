@@ -1,0 +1,28 @@
+.content-container {
+  padding: 60px 20px;
+}
+.About-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.About {
+  padding: 80px 20px;
+}
+.Button-About {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.joke-p {
+  margin-bottom: 50px;
+}
+.Footer-About {
+  margin-top: 100px;
+}

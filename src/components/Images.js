@@ -1,4 +1,5 @@
 import React from "react";
+import "../Images.css";
 import html from "../images/htmlimage.webp";
 import css from "../images/cssimage.webp";
 import bootstrap from "../images/bootstrap.webp";
@@ -8,32 +9,34 @@ import react from "../images/logo.svg";
 
 export default function Images() {
   return (
-    <div className="Images">
-      <main className="Main1">
-        <h2>Tools & Technologies I know</h2>
-        <div className="icons">
-          <div className="row">
-            <div className="col">
-              <img src={css} alt="CSS" />
-            </div>
-            <div className="col">
-              <img src={bootstrap} alt="Bootstrap" />
-            </div>
-            <div className="col">
-              <img src={html} alt="HTML" />
-            </div>
-            <div className="col">
-              <img src={react} alt="React app" />
-            </div>
-            <div className="col">
-              <img src={vscode} alt="Vs code" />
-            </div>
-            <div className="col">
-              <img src={github} alt="Github" />
+    <div className=" Container mt-5">
+      <div className="container-image">
+        <main className="Main1">
+          <h2>Tools & Technologies I know</h2>
+          <div className="icons">
+            <div className="row">
+              <div className="col-6 col-md-4">
+                <img src={css} alt="CSS" className="gallery-img" />
+              </div>
+              <div className=" col-6 col-md-4">
+                <img src={bootstrap} alt="Bootstrap" className="gallery-img" />
+              </div>
+              <div className=" col-6 col-md-4">
+                <img src={html} alt="HTML" className="gallery-img" />
+              </div>
+              <div className=" col-6 col-md-4">
+                <img src={react} alt="React app" className="gallery-img" />
+              </div>
+              <div className=" col-6 col-md-4">
+                <img src={vscode} alt="Vs code" className="gallery-img" />
+              </div>
+              <div className=" col-6 col-md-4">
+                <img src={github} alt="Github" className="gallery-img" />
+              </div>
             </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
   );
 }
