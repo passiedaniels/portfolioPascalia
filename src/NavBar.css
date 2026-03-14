@@ -1,0 +1,15 @@
+a {
+  color: black;
+}
+.Container {
+  max-width: 720px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
