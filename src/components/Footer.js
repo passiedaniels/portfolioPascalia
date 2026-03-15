@@ -10,7 +10,7 @@ export default function Footer() {
             <p className="text-muted">Lets work together</p>
           </div>
           <div>
-            <a href="https/" className="contact-Button mt-5 me-10">
+            <a href="/contact" className="contact-Button mt-5 me-10">
               Contact Me
             </a>
           </div>
@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="ContactInfo  ">
           <div>
             <a
-              href="https://www.instagram.com/ekiteles_pae"
+              href="mailto:pascaliaekiteles05@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -31,11 +31,11 @@ export default function Footer() {
           </div>
           <div className="social-Media  ">
             <a
-              href="https://www.instagram.com/ekiteles_pae"
+              href="https://wa.me/254768202630"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="  bi bi-bootstrap"></i>
+              <i class="  bi bi-whatsapp"></i>
             </a>
             <a
               href="https://www.instagram.com/ekiteles_pae"
@@ -46,7 +46,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.instagram.com/ekiteles_pae"
+              href="https://www.linkedin.com/in/pascalia-ekiteles-69b19a2a7"
               target="_blank"
               rel="noreferrer"
             >

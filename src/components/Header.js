@@ -11,7 +11,7 @@ export default function Header() {
           <h4 className="mb-5">
             A Junior Front-End Developer Based in Nairobi Kenya
           </h4>
-          <a className="link " href="https">
+          <a className="link " href="/contact">
             Contact me
           </a>
         </header>
