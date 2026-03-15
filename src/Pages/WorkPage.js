@@ -14,10 +14,10 @@ export default function WorkPage() {
     <div className="Container">
       <NavBar />
       <div className="work">
-        <h1>Take A Look Of Some Samples Of Work I Have Been Working On!!</h1>
+        <h1> Some Samples Of Work I Have Been Working On!!</h1>
         <div className="Photos">
           <div className="row">
-            <div className="col-6">
+            <div className="col-6 work-photo">
               <img src={dic} alt="dictionary" className="img-fluid work-img" />
               <div>
                 <h5>Dictionary Website</h5>
@@ -35,7 +35,7 @@ export default function WorkPage() {
                 <h6>Technologies: HTML, CSS, JavaScript, API Integration</h6>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 work-photo">
               <img
                 src={weather1}
                 alt="weather1"
@@ -55,7 +55,7 @@ export default function WorkPage() {
                 <h6>Technologies: HTML, CSS, JavaScript</h6>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 ">
               <img src={yoga} alt="yoga" className="img-fluid work-img" />
               <div>
                 <h5>Weight Loss Website</h5>
@@ -71,7 +71,7 @@ export default function WorkPage() {
                 <h6> Technologies: HTML, CSS, JavaScript</h6>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 ">
               <img
                 src={weather2}
                 alt="weather2"
@@ -92,7 +92,7 @@ export default function WorkPage() {
                 <h6>Technologies: React, JavaScript, CSS</h6>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 ">
               <img
                 src={worldclock}
                 alt="worldclock"
@@ -113,7 +113,7 @@ export default function WorkPage() {
                 <h6>Technologies: HTML, CSS, JavaScript</h6>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 ">
               <img src={recipe} alt="recipe" className="img-fluid work-img" />
               <div>
                 <h5>AI Recipe Generator</h5>
