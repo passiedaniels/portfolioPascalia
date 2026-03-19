@@ -62,7 +62,7 @@ export default function Footer() {
             {" "}
             Github
           </a>
-          and hosted on
+          , and hosted on
           <a href="https://pascaliaportfolio.netlify.app/"> Netlify</a>
         </p>
       </div>

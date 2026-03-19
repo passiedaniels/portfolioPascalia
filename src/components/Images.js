@@ -16,22 +16,52 @@ export default function Images() {
           <div className="icons">
             <div className="row">
               <div className="col-6 col-md-4">
-                <img src={css} alt="CSS" className="gallery-img" />
+                <img
+                  src={css}
+                  alt="CSS"
+                  className="gallery-img"
+                  title="Css image"
+                />
               </div>
               <div className=" col-6 col-md-4">
-                <img src={bootstrap} alt="Bootstrap" className="gallery-img" />
+                <img
+                  src={bootstrap}
+                  alt="Bootstrap"
+                  className="gallery-img"
+                  title="Bootstrap image"
+                />
               </div>
               <div className=" col-6 col-md-4">
-                <img src={html} alt="HTML" className="gallery-img" />
+                <img
+                  src={html}
+                  alt="HTML"
+                  className="gallery-img"
+                  title="Html image"
+                />
               </div>
               <div className=" col-6 col-md-4">
-                <img src={react} alt="React app" className="gallery-img" />
+                <img
+                  src={react}
+                  alt="React app"
+                  className="gallery-img"
+                  title="react image"
+                />
               </div>
               <div className=" col-6 col-md-4">
-                <img src={vscode} alt="Vs code" className="gallery-img" />
+                <img
+                  src={vscode}
+                  alt="Vs code"
+                  className="gallery-img"
+                  title="Vs code image"
+                />
               </div>
               <div className=" col-6 col-md-4">
-                <img src={github} alt="Github" className="gallery-img" />
+                <img
+                  src={github}
+                  alt="Github"
+                  className="gallery-img"
+                  title="Github image "
+                />
               </div>
             </div>
           </div>

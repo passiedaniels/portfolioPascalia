@@ -3,8 +3,12 @@ import Me from "../images/me.jpg";
 import Footer from "../components/Footer";
 import "../About.css";
 import NavBar from "../components/NavBar";
+import { useEffect } from "react";
 
 export default function AboutPage() {
+  useEffect(() => {
+    document.title = "AboutPage| Pascalia portfolio";
+  }, []);
   return (
     <div className=" Container ">
       <NavBar />

@@ -31,3 +31,8 @@
 .Footer-About {
   margin-top: 100px;
 }
+@media (max-width: 720px) {
+  .Button-About {
+    font-size: 15px;
+  }
+}

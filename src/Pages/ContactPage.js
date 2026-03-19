@@ -2,8 +2,12 @@ import React from "react";
 import Footer from "../components/Footer";
 import "../Contact.css";
 import NavBar from "../components/NavBar";
+import { useEffect } from "react";
 
 export default function ContactPage() {
+  useEffect(() => {
+    document.title = "ContactPage| Pascalia portfolio";
+  }, []);
   return (
     <div className="Container">
       <NavBar />
@@ -21,7 +25,7 @@ export default function ContactPage() {
               <input type="search" className="Search" />
             </form>
           </div>
-          <div>
+          <div className="contactinfo">
             <h3>Email</h3>
             <a href="mailto:pascaliaekiteles05@gmail.com" rel="noreferrer">
               Pascaliaekiteles05@gmail.com

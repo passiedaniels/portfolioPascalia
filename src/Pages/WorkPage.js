@@ -8,8 +8,12 @@ import weather2 from "../images/waether2.png";
 import worldclock from "../images/worldclock.png";
 import recipe from "../images/recipe.png";
 import dic from "../images/dictionary.png";
+import { useEffect } from "react";
 
 export default function WorkPage() {
+  useEffect(() => {
+    document.title = "WorkPage| Pascalia portfolio";
+  }, []);
   return (
     <div className="Container">
       <NavBar />
@@ -18,7 +22,12 @@ export default function WorkPage() {
         <div className="Photos">
           <div className="row">
             <div className="col-6 work-photo">
-              <img src={dic} alt="dictionary" className="img-fluid work-img" />
+              <img
+                src={dic}
+                alt="dictionary"
+                className="img-fluid work-img"
+                title="Dictionary website"
+              />
               <div>
                 <h5>Dictionary Website</h5>
                 <p>
@@ -40,6 +49,7 @@ export default function WorkPage() {
                 src={weather1}
                 alt="weather1"
                 className="img-fluid work-img"
+                title="Static weather web"
               />
               <div>
                 <h5>Static Weather</h5>
@@ -52,11 +62,19 @@ export default function WorkPage() {
                   webpages, manage layouts, and implement dynamic behavior
                   directly with core web technologies.
                 </p>
-                <h6>Technologies: HTML, CSS, JavaScript</h6>
+                <h6>
+                  {" "}
+                  <strong>Technologies:</strong> HTML, CSS, JavaScript
+                </h6>
               </div>
             </div>
             <div className="col-6 ">
-              <img src={yoga} alt="yoga" className="img-fluid work-img" />
+              <img
+                src={yoga}
+                alt="yoga"
+                className="img-fluid work-img"
+                title="Weight loss web"
+              />
               <div>
                 <h5>Weight Loss Website</h5>
                 <p>
@@ -68,7 +86,10 @@ export default function WorkPage() {
                   structured content-based website while maintaining a clean
                   design and responsive layout for different screen sizes.
                 </p>
-                <h6> Technologies: HTML, CSS, JavaScript</h6>
+                <h6>
+                  {" "}
+                  <strong> Technologies:</strong> HTML, CSS, JavaScript
+                </h6>
               </div>
             </div>
             <div className="col-6 ">
@@ -76,6 +97,7 @@ export default function WorkPage() {
                 src={weather2}
                 alt="weather2"
                 className="img-fluid work-img"
+                title="react weather web"
               />
               <div>
                 <h5>React Weather Website</h5>
@@ -89,7 +111,10 @@ export default function WorkPage() {
                   React. It also highlights the advantages of using a modern
                   JavaScript framework for scalable web development.
                 </p>
-                <h6>Technologies: React, JavaScript, CSS</h6>
+                <h6>
+                  {" "}
+                  <strong>Technologies: </strong> React, JavaScript, CSS
+                </h6>
               </div>
             </div>
             <div className="col-6 ">
@@ -97,6 +122,7 @@ export default function WorkPage() {
                 src={worldclock}
                 alt="worldclock"
                 className="img-fluid work-img"
+                title="Wordclock web"
               />
               <div>
                 <h5>WorldClock</h5>
@@ -110,11 +136,19 @@ export default function WorkPage() {
                   on building a functional and visually clear utility
                   application.
                 </p>
-                <h6>Technologies: HTML, CSS, JavaScript</h6>
+                <h6>
+                  {" "}
+                  <strong>Technologies: </strong> HTML, CSS, JavaScript
+                </h6>
               </div>
             </div>
             <div className="col-6 ">
-              <img src={recipe} alt="recipe" className="img-fluid work-img" />
+              <img
+                src={recipe}
+                alt="recipe"
+                className="img-fluid work-img"
+                title=" Ai recipe generatow"
+              />
               <div>
                 <h5>AI Recipe Generator</h5>
                 <p>
@@ -127,7 +161,10 @@ export default function WorkPage() {
                   displaying generated content in a clear and organized format.
                   It also emphasizes user interaction and responsive design.
                 </p>
-                <h6>Technologies: HTML, CSS, JavaScript, AI API</h6>
+                <h6>
+                  {" "}
+                  <strong>Technologies: </strong> HTML, CSS, JavaScript, AI API
+                </h6>
               </div>
             </div>
           </div>

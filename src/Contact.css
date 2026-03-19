@@ -5,3 +5,11 @@
   width: 300px;
   margin-bottom: 10px;
 }
+a {
+  color: var(--branding-color);
+}
+@media (max-width: 720px) {
+  .Search {
+    width: 200px;
+  }
+}
