@@ -15,6 +15,10 @@ export default function Header() {
           <h4 className="mb-5">
             A Junior Front-End Developer Based in Nairobi Kenya
           </h4>
+          <a href="/cv.pdf" target="blank" className="link" rel="noopener">
+            {" "}
+            View Resume
+          </a>
           <a className="link " href="/contact">
             Contact me
           </a>
